@@ -1,0 +1,36 @@
+３章
+・box-sizing: border-box;
+borderとpaddingをbox内に入れる
+・float
+left,right,noneがありそれぞれ要素を左、右に寄せたり、フロートを解除したりする
+副作用はfloatを指定した要素が一番手前に来てしまうため他の要素がその下に潜り込んでしまう。
+.clearfix::after
+下から上がってくる要素をブロックする
+afterはセレクタの要素の直後にスタイルや要素を追加するものです。
+・margin は border より外側の余白を指す
+・padding は border より内側の余白を指す
+・border と要素の四辺は同一のものではない
+・background-color
+border の内側の色を変える
+４章
+・text-align
+テキストの行揃え位置を設定する。値はleft、center、rightがよく使われる。
+要素自体を右寄せ、左寄せにするわけではないので注意。
+・list-style: none
+listの最初の・をなくす
+・display
+displayプロパティは、要素の表示形式を操作する
+inline-blockは
+・中央寄せのまとめは４章
+５章
+・line-height
+文字の行の高さを決める
+・border-radius
+箱の枠線の角を丸める効果を持つ
+px、%などで値を指定することができ、50%で正円を作ることができます。
+・sectionタグ
+基本的な意味合いとしては<div>タグと同様ですが、
+子要素に<h>タグを含む箱という意味がある
+・擬似クラスlast-child
+同じ名前のクラスの最後の要素だけを装飾する
+何番目の要素か指定したい場合はnth-childで
